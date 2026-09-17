@@ -13,19 +13,15 @@ https://github.com/sd5913/pfad/blob/2026/reference/files.md first. Ten minutes. 
 
 ## The phenomenon
 
-Greenhouse gases trap heat in the atmosphere and drive climate change. This project examines how Hong Kong's emissions changed between 1990 and 2024. I was especially interested in whether the economy became less carbon-intensive and whether that improvement was matched by similar reductions in the city's total and per-capita emissions.
+Greenhouse gases trap heat in the atmosphere and drive climate change. This project uses 35 years of Hong Kong measurements to make a circular portrait of how emissions and the carbon efficiency of the economy changed. I chose the artist's path: the numbers are the material of one image.
 
 ## The source
 
-The raw JSON is published by the HKSAR Government's Carbon Neutrality and Sustainable Development Office: [Greenhouse Gas Emissions and Carbon Intensity](https://cnsd.gov.hk/wpcontent/uploads/pdf/greenhouse_gas_emissions_and_carbon_intensity.json).
-
-The cached file contains 35 annual records. Each record gives the report year, total greenhouse gas emissions in kilotonnes of carbon-dioxide equivalent, emissions per person in tonnes of CO₂-e, and carbon intensity in kilograms of CO₂-e per Hong Kong dollar of GDP. 
+The raw file is the HKSAR Government's [Greenhouse Gas Emissions and Carbon Intensity JSON](https://cnsd.gov.hk/wp-content/uploads/pdf/greenhouse_gas_emissions_and_carbon_intensity.json). It contains 35 annual records from 1990 to 2024. Every record contains total greenhouse gas emissions in kilotonnes of CO₂-equivalent, per-capita emissions in tonnes of CO₂-equivalent, and carbon intensity in kilograms of CO₂-equivalent per Hong Kong dollar of GDP. `fetch.py` requests the file once and preserves the raw reply in `data/`, so `plot.py` runs without an internet connection.
 
 ## What the picture shows
 
-<!-- Two or three sentences. Including what it hides: every transformation throws
-something away, and naming what yours threw away is the easiest way to sound like
-you know what you did. -->
+Time travels clockwise around the flower, beginning with 1990 at the top. Each petal is one year. Its length comes from total emissions, its width from emissions per person, and its colour from carbon intensity: warm orange marks higher intensity and teal marks lower intensity. The movement from warm to cool colour shows the long decline in carbon intensity, which fell about 67% by 2024. The uneven outer edge records the much less direct path of total emissions.
 
 ## Run it
 
