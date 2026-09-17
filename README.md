@@ -13,12 +13,13 @@ https://github.com/sd5913/pfad/blob/2026/reference/files.md first. Ten minutes. 
 
 ## The phenomenon
 
-<!-- What goes up and down, and why you looked at it. -->
+Greenhouse gases trap heat in the atmosphere and drive climate change. This project examines how Hong Kong's emissions changed between 1990 and 2024. I was especially interested in whether the economy became less carbon-intensive and whether that improvement was matched by similar reductions in the city's total and per-capita emissions.
 
 ## The source
 
-<!-- A link to the page or endpoint the file came from, and one line on what is in
-the file: how many rows, what a row means, what the units are. -->
+The raw JSON is published by the HKSAR Government's Carbon Neutrality and Sustainable Development Office: [Greenhouse Gas Emissions and Carbon Intensity](https://cnsd.gov.hk/wpcontent/uploads/pdf/greenhouse_gas_emissions_and_carbon_intensity.json).
+
+The cached file contains 35 annual records. Each record gives the report year, total greenhouse gas emissions in kilotonnes of carbon-dioxide equivalent, emissions per person in tonnes of CO₂-e, and carbon intensity in kilograms of CO₂-e per Hong Kong dollar of GDP. 
 
 ## What the picture shows
 
