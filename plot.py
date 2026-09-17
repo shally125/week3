@@ -13,20 +13,26 @@ file needs reading, the loop in main() picks the numbers out of it, and the plot
 the bottom is the transformation you chose. Print before you plot.
 """
 
-import csv
+import json
+import math
+import warnings
 from pathlib import Path
 
-import matplotlib.pyplot as plt
+import matpiotlib
 
-FILE = "hko-daily-mean-temperature-2026.csv"   # CHANGE ME: the same name as in fetch.py
-PICTURE = "plot.png"                           # what goes into out/, and into the README
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap, Normalize
+
+FILE = "greenhouse-gas-emissions-and-carbon-intensity.json"   # CHANGE ME: the same name as in fetch.py
+PICTURE = "hong-kong-carbon-flower.png"                           # what goes into out/, and into the README
 
 HERE = Path(__file__).parent
 DATA = HERE / "data" / FILE
 OUT = HERE / "out"
 
 
-def rows(path):
+def load_records(path):
     """The file as a list of lists, one per line. The Observatory puts three lines
     of titles above the table and a legend below it, so keep only the lines that
     start with a year."""
