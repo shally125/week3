@@ -1,0 +1,211 @@
+[
+ {
+   "Report_Year": "1990",
+   "Total_GHG_emissions": 36300,
+   "Per_captia_emissions": 6.37,
+   "Carbon_Intensity": 0.033
+ },
+ {
+   "Report_Year": "1991",
+   "Total_GHG_emissions": 39800,
+   "Per_captia_emissions": 6.92,
+   "Carbon_Intensity": 0.034
+ },
+ {
+   "Report_Year": "1992",
+   "Total_GHG_emissions": 44200,
+   "Per_captia_emissions": 7.61,
+   "Carbon_Intensity": 0.036
+ },
+ {
+   "Report_Year": "1993",
+   "Total_GHG_emissions": 44500,
+   "Per_captia_emissions": 7.55,
+   "Carbon_Intensity": 0.034
+ },
+ {
+   "Report_Year": "1994",
+   "Total_GHG_emissions": 37200,
+   "Per_captia_emissions": 6.17,
+   "Carbon_Intensity": 0.027
+ },
+ {
+   "Report_Year": "1995",
+   "Total_GHG_emissions": 38300,
+   "Per_captia_emissions": 6.22,
+   "Carbon_Intensity": 0.027
+ },
+ {
+   "Report_Year": "1996",
+   "Total_GHG_emissions": 36900,
+   "Per_captia_emissions": 5.74,
+   "Carbon_Intensity": 0.025
+ },
+ {
+   "Report_Year": "1997",
+   "Total_GHG_emissions": 35600,
+   "Per_captia_emissions": 5.48,
+   "Carbon_Intensity": 0.023
+ },
+ {
+   "Report_Year": "1998",
+   "Total_GHG_emissions": 37000,
+   "Per_captia_emissions": 5.66,
+   "Carbon_Intensity": 0.025
+ },
+ {
+   "Report_Year": "1999",
+   "Total_GHG_emissions": 34400,
+   "Per_captia_emissions": 5.21,
+   "Carbon_Intensity": 0.023
+ },
+ {
+   "Report_Year": "2000",
+   "Total_GHG_emissions": 34200,
+   "Per_captia_emissions": 5.12,
+   "Carbon_Intensity": 0.021
+ },
+ {
+   "Report_Year": "2001",
+   "Total_GHG_emissions": 34300,
+   "Per_captia_emissions": 5.10,
+   "Carbon_Intensity": 0.021
+ },
+ {
+   "Report_Year": "2002",
+   "Total_GHG_emissions": 36400,
+   "Per_captia_emissions": 5.40,
+   "Carbon_Intensity": 0.022
+ },
+ {
+   "Report_Year": "2003",
+   "Total_GHG_emissions": 40100,
+   "Per_captia_emissions": 5.95,
+   "Carbon_Intensity": 0.023
+ },
+ {
+   "Report_Year": "2004",
+   "Total_GHG_emissions": 40200,
+   "Per_captia_emissions": 5.93,
+   "Carbon_Intensity": 0.022
+ },
+ {
+   "Report_Year": "2005",
+   "Total_GHG_emissions": 42800,
+   "Per_captia_emissions": 6.28,
+   "Carbon_Intensity": 0.021
+ },
+ {
+   "Report_Year": "2006",
+   "Total_GHG_emissions": 43700,
+   "Per_captia_emissions": 6.38,
+   "Carbon_Intensity": 0.020
+ },
+ {
+   "Report_Year": "2007",
+   "Total_GHG_emissions": 44200,
+   "Per_captia_emissions": 6.39,
+   "Carbon_Intensity": 0.019
+ },
+ {
+   "Report_Year": "2008",
+   "Total_GHG_emissions": 42700,
+   "Per_captia_emissions": 6.13,
+   "Carbon_Intensity": 0.018
+ },
+ {
+   "Report_Year": "2009",
+   "Total_GHG_emissions": 43300,
+   "Per_captia_emissions": 6.21,
+   "Carbon_Intensity": 0.019
+ },
+ {
+   "Report_Year": "2010",
+   "Total_GHG_emissions": 41800,
+   "Per_captia_emissions": 5.96,
+   "Carbon_Intensity": 0.017
+ },
+ {
+   "Report_Year": "2011",
+   "Total_GHG_emissions": 43400,
+   "Per_captia_emissions": 6.13,
+   "Carbon_Intensity": 0.017
+ },
+ {
+   "Report_Year": "2012",
+   "Total_GHG_emissions": 43600,
+   "Per_captia_emissions": 6.10,
+   "Carbon_Intensity": 0.017
+ },
+ {
+   "Report_Year": "2013",
+   "Total_GHG_emissions": 44800,
+   "Per_captia_emissions": 6.24,
+   "Carbon_Intensity": 0.017
+ },
+ {
+   "Report_Year": "2014",
+   "Total_GHG_emissions": 45600,
+   "Per_captia_emissions": 6.30,
+   "Carbon_Intensity": 0.017
+ },
+ {
+   "Report_Year": "2015",
+   "Total_GHG_emissions": 42100,
+   "Per_captia_emissions": 5.78,
+   "Carbon_Intensity": 0.015
+ },
+ {
+   "Report_Year": "2016",
+   "Total_GHG_emissions": 42300,
+   "Per_captia_emissions": 5.77,
+   "Carbon_Intensity": 0.015
+ },
+ {
+   "Report_Year": "2017",
+   "Total_GHG_emissions": 41500,
+   "Per_captia_emissions": 5.62,
+   "Carbon_Intensity": 0.014
+ },
+ {
+   "Report_Year": "2018",
+   "Total_GHG_emissions": 42100,
+   "Per_captia_emissions": 5.65,
+   "Carbon_Intensity": 0.014
+ },
+ {
+   "Report_Year": "2019",
+   "Total_GHG_emissions": 41300,
+   "Per_captia_emissions": 5.50,
+   "Carbon_Intensity": 0.014
+ },
+ {
+   "Report_Year": "2020",
+   "Total_GHG_emissions": 34900,
+   "Per_captia_emissions": 4.66,
+   "Carbon_Intensity": 0.012
+ },
+ {
+   "Report_Year": "2021",
+   "Total_GHG_emissions": 36300,
+   "Per_captia_emissions": 4.90,
+   "Carbon_Intensity": 0.012
+ },
+ {
+   "Report_Year": "2022",
+   "Total_GHG_emissions": 34600,
+   "Per_captia_emissions": 4.71,
+   "Carbon_Intensity": 0.012
+ },
+ {
+   "Report_Year": "2023",
+   "Total_GHG_emissions": 34500,
+   "Per_captia_emissions": 4.57,
+   "Carbon_Intensity": 0.012
+ },
+{
+   "Report_Year": "2024",
+   "Total_GHG_emissions": 33200,
+   "Per_captia_emissions": 4.41,
+   "Carbon_Intensity": 0.011
+]	

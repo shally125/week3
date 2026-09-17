@@ -44,27 +44,25 @@ def scale(values):
     """Change a list of values to numbers between 0 and 1."""
     low = min(values)
     high = max(values)
+    if high == low:
+        return [0.0 for value in values]
     return [(value - low) / (high - low) for value in values]
-    
+
+
 def main():
     table = rows(DATA)
     print(f"{DATA.name}: {len(table)} rows. The first one: {table[0]}")
 
     years, totals, per_person, intensity = [], [], [], []
 
-for row in table:
-    years.append(int(row["Report_Year"]))
-    totals.append(float(row["Total_GHG_emissions"]))
-    per_person.append(float(row["Per_captia_emissions"]))
-    intensity.append(float(row["Carbon_Intensity"]))
-    print(f"{DATA.name}: {len(table)} rows. The first one: {table[0]}")
-print(f"one value: {totals[0]} ({type(totals[0]).__name__})")# the loop over the numbers
- def scale(values):
-    low = min(values)
-    high = max(values)
-    return [(value - low) / (high - low) for value in values]       
+    for row in table:
+        years.append(int(row["Report_Year"]))
+        totals.append(float(row["Total_GHG_emissions"]))
+        per_person.append(float(row["Per_captia_emissions"]))
+        intensity.append(float(row["Carbon_Intensity"]))
 
-total_size = scale(totals)
+    print(f"one value: {totals[0]} ({type(totals[0]).__name__})")
+    total_size = scale(totals)
     person_size = scale(per_person)
     number_of_years = len(years)
     sector = 2 * math.pi / number_of_years
@@ -72,19 +70,21 @@ total_size = scale(totals)
 
     colours = LinearSegmentedColormap.from_list(
         "carbon", ["#1f8a83", "#74b6a6", "#e6b85c", "#e06a3f"]
-    )# it arrived as text; make it a number
-    print(f"{len(values)} values, from {min(values)} to {max(values)}")
+    )
+    colour_scale = Normalize(vmin=min(intensity), vmax=max(intensity))
 
-    fig, ax = plt.subplots( figsize=(10, 10),subplot_kw={"projection": "polar"},
-    facecolor="#0b171a",)
-   ax.set_facecolor("#0b171a")
+    fig, ax = plt.subplots(
+        figsize=(10, 10),
+        subplot_kw={"projection": "polar"},
+        facecolor="#0b171a",
+    )
+    ax.set_facecolor("#0b171a")
     ax.set_theta_zero_location("N")
     ax.set_theta_direction(-1)
-tips = []
+    tips = []
     centres = []
     for i in range(number_of_years):  
-
-height = 0.30 + 0.35 * total_size[i]
+        height = 0.30 + 0.35 * total_size[i]
         width = sector * (0.45 + 0.48 * person_size[i])
         colour = colours(colour_scale(intensity[i]))
 
@@ -104,7 +104,6 @@ height = 0.30 + 0.35 * total_size[i]
     OUT.mkdir(exist_ok=True)
     fig.savefig(OUT / PICTURE, dpi=180)
     print(f"saved out/{PICTURE}")
-    plt.show()
 
 
 if __name__ == "__main__":

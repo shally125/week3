@@ -15,8 +15,8 @@ from pathlib import Path
 
 import requests
 
-URL = (""https://cnsd.gov.hk/wp-content/uploads/pdf/"
-       "greenhouse_gas_emissions_and_carbon_intensity.json")      # CHANGE ME
+URL = ("https://cnsd.gov.hk/wp-content/uploads/pdf/"
+    "greenhouse_gas_emissions_and_carbon_intensity.json")
 FILE = "greenhouse-gas-emissions-and-carbon-intensity.json"                          # CHANGE ME: say what it is,
                                                                       # keep the publisher's extension
 HERE = Path(__file__).parent
@@ -25,7 +25,7 @@ DATA = HERE / "data"
 
 def fetch(url: str, path: Path) -> Path:
     """Fetch *url* once and save the publisher's reply byte-for-byte at *path*."""
-      if path.exists():
+    if path.exists():
         print(
             f"data/{path.name} is already here ({path.stat().st_size} bytes). "
             "Delete it to fetch a newer edition."
