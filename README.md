@@ -9,7 +9,7 @@ Then, in this order, at least 150 words in total.
 New to folders, paths, or the files here whose names start with a dot? Read
 https://github.com/sd5913/pfad/blob/2026/reference/files.md first. Ten minutes. -->
 
-![what the picture is](out/hong-kong-carbon-flower.png)
+![animated carbon flower](out/hong-kong-carbon-flower.gif)
 
 ## The phenomenon
 
