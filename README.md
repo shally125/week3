@@ -28,4 +28,5 @@ Time travels clockwise around the flower, beginning with 1990 at the top. Each p
 ```
 uv run fetch.py
 uv run plot.py
+uv run animate.py
 ```
